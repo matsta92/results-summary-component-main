@@ -5,23 +5,74 @@
     padding: 0
     box-sizing: border-box
     
+.bold
+    font-weight: bold
+
 body
     font-family: 'Hanken Grotesk', sans-serif
     font-size: 18px
     
 .your-result
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
     width: 100%
     color: $light-lavender
     background: linear-gradient($light-slate-blue, $light-royal-blue)
+    border-radius: 0px 0px 40px 40px
 
 .your-result-title
-    padding-top: 6%
+    padding-top: 25px
     font-weight: 700
     text-align: center
 
 .circle
-    margin: 5% auto
-    width: 150px
-    height: 150px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-top: 25px
+    width: 140px
+    height: 140px
     border-radius: 100%
     background: linear-gradient($violet-blue, $persian-blue)
+
+.score
+    color: $white
+    font-size: 55px
+    font-weight: bold
+
+.score-description-title
+    text-align: center
+    color: $white
+    margin-top: 25px
+    font-size: 25px
+    font-weight: bold
+
+.score-description-text
+    text-align: center
+    margin: 10px 13% 40px 13%
+
+.summary
+    margin: 25px
+
+.summary-title
+    color: $dark-gray-blue
+    font-weight: bold
+
+.results-points-box
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 60px
+    background: grey
+    margin: 20px 0 20px 0
+    padding: 0 15px 0 15px
+    border-radius: 10px
+
+.results-points-title
+    display: flex
+
+.results-points-icon
+    display: block
