@@ -8,6 +8,42 @@
   font-weight: bold;
 }
 
+.light-red-text {
+  color: hsl(0, 100%, 67%);
+}
+
+.orange-yellow-text {
+  color: hsl(39, 100%, 56%);
+}
+
+.green-teal-text {
+  color: hsl(166, 100%, 37%);
+}
+
+.cobalt-blue-text {
+  color: hsl(234, 85%, 45%);
+}
+
+.light-red-bg {
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.orange-yellow-bg {
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.green-teal-bg {
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.cobalt-blue-bg {
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.dark-gray-blue-text {
+  color: hsl(224, 30%, 27%);
+}
+
 body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 18px;
@@ -75,7 +111,6 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background: grey;
   margin: 20px 0 20px 0;
   padding: 0 15px 0 15px;
   border-radius: 10px;
@@ -83,8 +118,33 @@ body {
 
 .results-points-title {
   display: flex;
+  font-weight: 700;
+}
+
+.results-points-score {
+  font-weight: bold;
+  color: #999;
 }
 
 .results-points-icon {
   display: block;
+  margin-right: 10px;
+}
+
+.btn-continue {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 325px;
+  height: 55px;
+  border: none;
+  border-radius: 40px 40px 40px 40px;
+  background: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }/*# sourceMappingURL=style.css.map */

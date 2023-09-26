@@ -8,6 +8,33 @@
 .bold
     font-weight: bold
 
+.light-red-text
+    color: $light-red
+
+.orange-yellow-text
+    color: $orange-yellow
+
+.green-teal-text
+    color: $green-teal
+
+.cobalt-blue-text
+    color: $cobalt-blue
+
+.light-red-bg
+    background-color: $light-red-bg
+
+.orange-yellow-bg
+    background-color: $orange-yellow-bg
+
+.green-teal-bg
+    background-color: $green-teal-bg
+
+.cobalt-blue-bg
+    background-color: $cobalt-blue-bg
+
+.dark-gray-blue-text
+    color: $dark-gray-blue
+
 body
     font-family: 'Hanken Grotesk', sans-serif
     font-size: 18px
@@ -66,13 +93,35 @@ body
     justify-content: space-between
     align-items: center
     height: 60px
-    background: grey
     margin: 20px 0 20px 0
     padding: 0 15px 0 15px
     border-radius: 10px
 
 .results-points-title
     display: flex
+    font-weight: 700
+
+.results-points-score
+    font-weight: bold
+    color: #999
 
 .results-points-icon
     display: block
+    margin-right: 10px
+
+.btn-continue
+    display: block
+    margin: 0 auto
+    width: 100%
+    max-width: 325px
+    height: 55px
+    border: none
+    border-radius: 40px 40px 40px 40px
+    background: linear-gradient($dark-gray-blue, $dark-gray-blue)
+    color: $white
+    font-size: 18px
+    font-weight: 700
+    // transition: 1s background
+
+.btn-continue:hover
+    background: linear-gradient($light-slate-blue, $light-royal-blue)
