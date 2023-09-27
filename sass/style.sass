@@ -38,6 +38,10 @@
 body
     font-family: 'Hanken Grotesk', sans-serif
     font-size: 18px
+
+.summary-component
+    margin: 0 auto
+    max-width: 600px
     
 .your-result
     display: flex
@@ -82,7 +86,7 @@ body
     margin: 10px 13% 40px 13%
 
 .summary
-    margin: 25px
+    padding: 25px
 
 .summary-title
     color: $dark-gray-blue
@@ -125,3 +129,30 @@ body
 
 .btn-continue:hover
     background: linear-gradient($light-slate-blue, $light-royal-blue)
+
+
+@media (min-width: 690px)
+    .wrapper
+        width: 100%
+        height: 100vh
+        display: flex
+        justify-content: center
+        align-items: center
+
+    .summary-component
+        display: flex
+        max-width: 1000px
+        border-radius: 40px 40px 40px 40px
+        box-shadow: 20px 20px 20px rgba(0,0,0,0.08)
+
+    .your-result
+        width: 320px
+        border-radius: 40px 40px 40px 40px
+        // display: block
+
+    .your-result-title
+        padding-top: 0px
+        
+    .summary
+        width: 350px
+        padding: 35px
